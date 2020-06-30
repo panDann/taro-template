@@ -1,5 +1,5 @@
 
-# 当前taro 2.0.7
+# 当前taro 2.2.9
 
 # 使用 npm 安装 CLI
 $ npm install -g @tarojs/cli
