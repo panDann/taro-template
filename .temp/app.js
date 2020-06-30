@@ -36,7 +36,7 @@ class App extends Component {
   state = {
     __tabs: {
       color: "#cccccc",
-      custom: true,
+      // custom: true,
       selectedColor: "#3a8df3", //颜色
       list: [{
         pagePath: "/pages/index/index",
@@ -74,7 +74,7 @@ class App extends Component {
       navigationBarTitleText: 'WeChat',
       navigationBarTextStyle: 'black'
     },
-    tabBar: { color: "#cccccc", custom: true, selectedColor: "#3a8df3", list: [{ pagePath: "/pages/index/index", text: "首页", iconPath: require("./assets/tab-icon/first.png"), selectedIconPath: require("./assets/tab-icon/first-selected.png") }, { pagePath: "/pages/mine/index", text: "个人中心", iconPath: require("./assets/tab-icon/personal-center.png"), selectedIconPath: require("./assets/tab-icon/personal-center-selected.png") }], mode: "hash",
+    tabBar: { color: "#cccccc", selectedColor: "#3a8df3", list: [{ pagePath: "/pages/index/index", text: "首页", iconPath: require("./assets/tab-icon/first.png"), selectedIconPath: require("./assets/tab-icon/first-selected.png") }, { pagePath: "/pages/mine/index", text: "个人中心", iconPath: require("./assets/tab-icon/personal-center.png"), selectedIconPath: require("./assets/tab-icon/personal-center-selected.png") }], mode: "hash",
       basename: "/",
       customRoutes: {}
     }
