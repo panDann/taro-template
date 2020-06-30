@@ -1,8 +1,8 @@
 {
-  "name": "myApp",
+  "name": "regulation",
   "version": "1.0.0",
   "private": true,
-  "description": "ttt",
+  "description": "template",
   "templateInfo": {
     "name": "default",
     "typescript": false,
