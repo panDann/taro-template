@@ -23,17 +23,19 @@ class App extends Component {
   config = {
     pages: [
       'pages/index/index',
+      'pages/canteen/index',
+      'pages/task/index',
       'pages/mine/index',
     ],
     window: {
       backgroundTextStyle: 'light',
-      navigationBarBackgroundColor: '#fff',
+      navigationBarBackgroundColor:'#3390FB',
       navigationBarTitleText: 'WeChat',
-      navigationBarTextStyle: 'black'
+      navigationBarTextStyle: 'white',
+      backgroundColor:'#EFEFF4',
     },
     tabBar: {
       color: "#cccccc",
-      // custom: true,
       selectedColor: "#3a8df3", //颜色
       list: [ 
         {
@@ -43,10 +45,22 @@ class App extends Component {
           selectedIconPath: "assets/tab-icon/first-selected.png"
         },
         {
+          pagePath: "pages/canteen/index",
+          text: "食堂",
+          iconPath: "assets/tab-icon/canteen.png",
+          selectedIconPath: "assets/tab-icon/canteen-selected.png"
+        },
+        {
+          pagePath: "pages/task/index",
+          text: "任务",
+          iconPath: "assets/tab-icon/task.png",
+          selectedIconPath: "assets/tab-icon/task-selected.png"
+        },
+        {
           pagePath: "pages/mine/index",
-          text: "个人中心",
-          iconPath: "assets/tab-icon/personal-center.png",
-          selectedIconPath: "assets/tab-icon/personal-center-selected.png"
+          text: "我的",
+          iconPath: "assets/tab-icon/mine.png",
+          selectedIconPath: "assets/tab-icon/mine-selected.png"
         }
       ]
     },

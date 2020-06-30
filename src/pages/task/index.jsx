@@ -1,9 +1,5 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View, Text } from '@tarojs/components'
-
-import BarTitle from '@src/components/bar-title'
-
-
 import './index.styl'
 
 export default class Index extends Component {
@@ -19,13 +15,13 @@ export default class Index extends Component {
   componentDidHide () { }
 
   config = {
-    navigationBarTitleText: '首页',
+    navigationBarTitleText: '首页'
   }
+
   render () {
     return (
       <View className='index'>
-        {/* <Text>Hello worl</Text> */}
-        <BarTitle text='title' />
+        <Text>Hello world!</Text>
       </View>
     )
   }
